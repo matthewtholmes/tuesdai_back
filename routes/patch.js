@@ -52,20 +52,4 @@ router.patch('/user', (req, res) => {
       .update({user_id: getUserId()})
 })
 
-// const {name} = req.body;
-// knex("client")
-//   .update({name})
-//   .where({id})
-// .then(rows => {
-//   // the argument here as you stated
-//   // describes the number of rows updated
-//   // therefore if no row found no row will be updated
-//   if (!rows){
-//     return res.status(404).json({success:false});
-//   }
-//   return res.json({success:true});
-// })
-// .catch( e => res.status(500).json(e)); 
-
-
 module.exports = router;

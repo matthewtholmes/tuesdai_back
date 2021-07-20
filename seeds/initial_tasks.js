@@ -27,11 +27,3 @@ exports.seed = function(knex) {
       ]);
     })
 };
-
-// Team_tasks
-// -----
-// ID
-// USER ASSIGNED
-// TASK
-// STATUS
-// PRIORITY
